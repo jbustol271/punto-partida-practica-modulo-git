@@ -69,33 +69,19 @@ Upstream sirve para mantener tu fork actualizado con los cambios del repositorio
 ---
 ### Tarea 2 — Feature branch A: añadir la Opción 5
 
-Esta rama parte de `dev`.
+Primero compruebo que estoy en dev y creo la rama featur/opcion-5 a partir de dev, a continuación añado a la tarjeta propuesta (opcion-5) y modifico la descripcion de la tarjeta.
 
-1. Crea la rama `feature/opcion-5` desde `dev`.
-2. Abre `src/app.tsx` y añade la siguiente tarjeta al array `OPTIONS`:
+> **Diario:** Explica por qué la rama parte de `dev` y no de `main`.
 
-```tsx
-{
-  id: 5,
-  title: "Opción 5",
-  description: "Pull Request",
-  message:
-    "Una Pull Request es una propuesta formal para incorporar cambios de una rama a otra. Permite revisar el código antes de mergear y deja un historial claro de qué se hizo y por qué.",
-  featureFlag: false,
-},
-```
 
-3. Además, cambia el campo `description` de la **Opción 3** de su valor actual a:
+En un flujo de trabajo profesional basado en Git Flow, cada rama tiene un propósito muy definido:
 
-```tsx
-description: "Flujo de trabajo",
-```
+* **main:** código estable en producción. Contiene solo versiones finales. No se desarrolla nada directamente aquí. Cada commit en main debería corresponder a una release o un hotfix. Es la rama que se despliega.
 
-4. Arranca la app y verifica en el navegador que aparece la Opción 5.
-5. Haz un commit con el mensaje: `feat: añadir Opción 5 y actualizar descripción de Opción 3`
-6. Sube la rama a tu fork.
 
-> **Diario:** Explica por qué la rama parte de `dev` y no de `main`. Adjunta la captura 3.
+* **dev:** rama de integración de nuevas funcionalidades. Es donde se juntan todas las features. Aquí se prueba, integra y valida el desarrollo. Es el “campo de pruebas” antes de preparar una release. Todas las features deben nacer desde dev, porque es la rama donde se integra el desarrollo activo.
+
+![Descripción de la imagen](capturas/tarea2.png)
 
 ---
 
