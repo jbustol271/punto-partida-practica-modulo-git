@@ -33,10 +33,7 @@ Lo primero que he realizado es:
 
 ![Descripción de la imagen](capturas/app-inicial.png)
 ---
-
-
 ### Capturas obligatorias
-
 
 | #   | Qué debe mostrar la captura                                                       |
 | --- | --------------------------------------------------------------------------------- |
@@ -50,13 +47,10 @@ Lo primero que he realizado es:
 | 8   | Terminal con `git log --oneline` en `main` mostrando todos los commits            |
 
 El `DIARIO.md` debe commitearse y pushearse a tu fork antes de la entrega.
-
 ---
 
 ## Tareas obligatorias
-
 ---
-
 ### Tarea 1 — Fork y configuración inicial
 
 He realizado la clonación de mi repositorio local (https://github.com/jbustol271/punto-partida-practica-modulo-git) el cual esta en el estado de punto de partida del laboratorio con git clone -- aqui tenemos origini y tambien lo he enlazado con el upstream de origen. 
@@ -67,26 +61,12 @@ Rama dev en mi fork
 
 ![Descripción de la imagen](capturas/rama-dev-mi-fork.png)
 
-
-
-
-
-
-1. Haz un fork del repositorio del instructor en tu cuenta de GitHub.
-2. Clona tu fork en tu ordenador.
-3. Entra en la carpeta `proyecto-demo`, instala las dependencias y arranca la app para confirmar que funciona.
-4. Añade el repositorio del instructor como remote con el nombre `upstream`.
-5. Verifica con `git remote -v` que tienes tanto `origin` (tu fork) como `upstream` (el instructor).
-6. Crea la rama `dev` y súbela a tu fork.
-
 > **Diario:** Escribe qué es un fork y para qué sirve `upstream`. 
 
 * **fork:** Un fork es una copia completa de un repositorio que se crea en tu propia cuenta de GitHub.
 * **upstream:** Cuando haces un fork, Git crea dos “remotos” posibles origin que es tu repositorio (tu fork) u upstream que es el repositorio original del que hiciste el fork.
 Upstream sirve para mantener tu fork actualizado con los cambios del repositorio original, sin upstream, tu fork se queda desactualizado.
-
 ---
-
 ### Tarea 2 — Feature branch A: añadir la Opción 5
 
 Esta rama parte de `dev`.
