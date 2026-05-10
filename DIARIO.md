@@ -35,28 +35,8 @@ Lo primero que he realizado es:
 ---
 
 
-## Cómo demostrar tu trabajo — el diario del laboratorio
-
-Parte importante de este laboratorio **no es solo hacer las cosas, sino dejar constancia de que las has hecho**.
-
-En la raíz de tu fork, crea un fichero llamado `DIARIO.md`. A medida que vayas completando cada tarea, añade una entrada con:
-
-- **Qué hiciste** (un párrafo breve con tus propias palabras, no copiado del enunciado)
-- **Una captura de pantalla** que lo demuestre
-
-Para insertar una captura en Markdown dentro de GitHub:
-
-```markdown
-![Descripción de la imagen](capturas/nombre-imagen.png)
-```
-
-Crea una carpeta `capturas/` en la raíz del repo para guardar las imágenes, o súbelas directamente al DIARIO.md arrastrándolas en el editor de GitHub (GitHub las aloja automáticamente).
-
 ### Capturas obligatorias
 
-#### Tarea 1
-
-He realizado la clonación de mi repositorio local (https://github.com/jbustol271/punto-partida-practica-modulo-git) el cual esta en el estado de punto de partida del laboratorio con git clone -- aqui tenemos origini y tambien lo he enlazado con el upstream de origen. 
 
 | #   | Qué debe mostrar la captura                                                       |
 | --- | --------------------------------------------------------------------------------- |
@@ -79,6 +59,19 @@ El `DIARIO.md` debe commitearse y pushearse a tu fork antes de la entrega.
 
 ### Tarea 1 — Fork y configuración inicial
 
+He realizado la clonación de mi repositorio local (https://github.com/jbustol271/punto-partida-practica-modulo-git) el cual esta en el estado de punto de partida del laboratorio con git clone -- aqui tenemos origini y tambien lo he enlazado con el upstream de origen. 
+
+![Descripción de la imagen](capturas/git-remote-v.png)
+
+Rama dev en mi fork
+
+![Descripción de la imagen](capturas/rama-dev-mi-fork.png)
+
+
+
+
+
+
 1. Haz un fork del repositorio del instructor en tu cuenta de GitHub.
 2. Clona tu fork en tu ordenador.
 3. Entra en la carpeta `proyecto-demo`, instala las dependencias y arranca la app para confirmar que funciona.
@@ -86,7 +79,11 @@ El `DIARIO.md` debe commitearse y pushearse a tu fork antes de la entrega.
 5. Verifica con `git remote -v` que tienes tanto `origin` (tu fork) como `upstream` (el instructor).
 6. Crea la rama `dev` y súbela a tu fork.
 
-> **Diario:** Escribe qué es un fork y para qué sirve `upstream`. Adjunta la captura 1 y la captura 2.
+> **Diario:** Escribe qué es un fork y para qué sirve `upstream`. 
+
+* **fork:** Un fork es una copia completa de un repositorio que se crea en tu propia cuenta de GitHub.
+* **upstream:** Cuando haces un fork, Git crea dos “remotos” posibles origin que es tu repositorio (tu fork) u upstream que es el repositorio original del que hiciste el fork.
+Upstream sirve para mantener tu fork actualizado con los cambios del repositorio original, sin upstream, tu fork se queda desactualizado.
 
 ---
 
