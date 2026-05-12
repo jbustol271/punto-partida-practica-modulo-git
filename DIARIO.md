@@ -133,17 +133,6 @@ Por eso aparecerá un conflicto.
 
 ### Tarea 6 — Limpieza y cierre del diario
 
-1. Borra las dos feature branches en GitHub (botón **Delete branch** o desde la pestaña de ramas).
-2. Bórralas también en local:
-
-```bash
-git branch -d feature/opcion-5
-git branch -d feature/opcion-6
-```
-
-3. Ejecuta `git branch` y confirma que solo te quedan `main` y `dev`.
-4. Asegúrate de que tu `DIARIO.md` está completo con todas las capturas y haz commit y push.
-
 ![ Terminal con `git log --oneline` en `main` mostrando todos los commits  ](capturas/captura-8.png)
 
 > **Diario:** Adjunta la captura 8 (`git log --oneline`). Cierra el diario con un párrafo libre: qué te ha resultado más difícil y qué tiene más sentido ahora que antes de la clase.
