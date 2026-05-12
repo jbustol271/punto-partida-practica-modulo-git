@@ -5,7 +5,7 @@ import { MessageModal } from "./common/components";
 
 const isOpcion3Enabled = import.meta.env.VITE_FEATURE_OPCION_3 === "true";
 
-const OPTIONS: Option[] = [
+const OPTIONS: Option[] =  [
   {
     id: 1,
     title: "Opción 1",
